@@ -8,6 +8,7 @@ import 'techstacks.dtos.dart';
 
 const TestBaseUrl = "http://test.servicestack.net";
 const TechStacksBaseUrl = "https://www.techstacks.io";
+
 var testClient = new JsonServiceClient(TestBaseUrl);
 var techstacksClient = new JsonServiceClient(TechStacksBaseUrl);
 
@@ -29,13 +30,13 @@ class HelloFlutter extends StatefulWidget {
 }
 
 class HelloFlutterState extends State<HelloFlutter> {
+  //State for this widget
   String result = "";
   Uint8List imageBytes = new Uint8List(0);
 
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      //primary: false, //landscape
       //appBar: new AppBar(title: new Text("Input Text"), backgroundColor: Colors.deepOrange),
       body: new Container(
         margin: new EdgeInsets.fromLTRB(15.0, 25.0, 15.0, 0.0),
