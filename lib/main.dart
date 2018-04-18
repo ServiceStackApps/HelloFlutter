@@ -1,17 +1,17 @@
 import 'dart:typed_data';
-
 import 'package:flutter/material.dart';
+
 import 'package:servicestack/client.dart';
 
 import 'test.dtos.dart';
 import 'techstacks.dtos.dart';
 
-void main() => runApp(new MyApp());
-
 const TestBaseUrl = "http://test.servicestack.net";
 const TechStacksBaseUrl = "https://www.techstacks.io";
 var testClient = new JsonServiceClient(TestBaseUrl);
 var techstacksClient = new JsonServiceClient(TechStacksBaseUrl);
+
+void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
   @override
