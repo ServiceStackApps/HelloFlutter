@@ -1,6 +1,6 @@
 # HelloFlutter
 
-Flutter Mobile App utilizing native Dart ServiceStack Reference.
+Flutter iOS/Android Mobile App utilizing [ServiceStack's native support for Dart](http://docs.servicestack.net/dart-add-servicestack-reference).
 
 ### HelloFlutter App
 
