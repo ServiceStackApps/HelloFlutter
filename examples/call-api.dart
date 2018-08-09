@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:servicestack/servicestack.dart';
+import 'package:servicestack/client.dart';
 
 import 'techstacks.dtos.dart';
 

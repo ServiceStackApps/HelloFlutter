@@ -15,7 +15,7 @@ Then to use `JsonServiceClient` add the `servicestack` dependency to your apps [
   dependencies:
     flutter:
       sdk: flutter
-    servicestack: "^1.0.0"
+    servicestack: ^1.0.4
 
 Saving `pubspec.yaml` automatically runs [flutter packages get](https://flutter.io/using-packages/) to install any new dependencies in your App. 
 
@@ -39,12 +39,12 @@ Which updates all Dart references in the current directory, including any custom
     Updated: test.dtos.dart
     Updated: techstacks.dtos.dart
 
-This gives us everything we need to call Web Services in our Flutter App, by importing `package:servicestack/servicestack.dart` containing `JsonServiceClient` as well as any generated DTOs.
+This gives us everything we need to call Web Services in our Flutter App, by importing `package:servicestack/client.dart` containing `JsonServiceClient` as well as any generated DTOs.
 
 Then create new `JsonServiceClient` instances initialized with the `BaseUrl` for each of the remote endpoints we want to call:
 
 ```dart
-import 'package:servicestack/servicestack.dart';
+import 'package:servicestack/client.dart';
 
 import 'test.dtos.dart';
 import 'techstacks.dtos.dart';

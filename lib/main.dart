@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 import 'package:flutter/material.dart';
 
-import 'package:servicestack/servicestack.dart';
+import 'package:servicestack/client.dart';
 
 import 'test.dtos.dart';
 import 'techstacks.dtos.dart';
