@@ -12,10 +12,12 @@ This creates a basic Flutter App which you can run in your Android Device or And
 
 Then to use `JsonServiceClient` add the `servicestack` dependency to your apps [pubspec.yaml](https://github.com/ServiceStackApps/HelloFlutter/blob/master/pubspec.yaml):
 
-  dependencies:
-    flutter:
-      sdk: flutter
-    servicestack: ^1.0.5
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  servicestack: ^1.0.5
+```
 
 Saving `pubspec.yaml` automatically runs [flutter packages get](https://flutter.io/using-packages/) to install any new dependencies in your App. 
 
